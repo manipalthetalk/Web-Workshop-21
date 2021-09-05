@@ -39,3 +39,9 @@ Now that we have a basic understanding about web development let's go right into
 
     - Installing VScode : [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
     - Install extensions - (Prettier + Live Server)
+
+
+# Portfolio design
+
+![Screen 1](screen1.png)
+![Screen 1](screen2.png)
