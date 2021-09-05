@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+html,
+body {
+  background-color: #fafcfe;
+}
+
+.navbar {
+  height: 55px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar .nav-item {
+  float: right;
+  padding: 1rem;
+}
+
+.navbar .username {
+  float: left;
+  font-weight: bold;
+}
+
+.navbar .nav-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.landing-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+
+.landing-section .me-text {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.landing-section .me-para {
+  padding: 1rem 4rem;
+  color: #565252;
+}
+
+.landing-section .link-icon {
+  margin: 0 0.4rem;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.left-blob {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.right-blob {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.about-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-section .experience-section {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  color: #565252;
+  margin: 0 3rem;
+}
+
+.about-section .experience-section .count {
+  font-size: 4rem;
+  color: black;
+}
+
+.about-section .specialisation-section {
+  width:50%;
+}
+
+.about-section .specialisation-section .specialisation-heading {
+  color: #0a5dff;
+  font-size: 1.5rem;
+}
+
+.specialisation-cards {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.specialisation-card {
+  background-color: #e7efff;
+  color: #0a5dff;
+  padding: 1rem;
+  margin-right: 1rem;
+  height: 16rem;
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: 0.2s ease-in-out all;
+}
+
+.specialisation-card:hover {
+  background-color: #0a5dff;
+  color: #e7efff;
+}
+.specialisation-card .stack-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.stack-icon {
+  transition: 0.2s ease-in-out all;
+
+  opacity: 0;
+}
+.specialisation-card:hover .stack-icon {
+  opacity: 1;
+}
+
+.specialisation-card .detail {
+  font-weight: bold;
+  padding: 0.6rem 0;
+}
